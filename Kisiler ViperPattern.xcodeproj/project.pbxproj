@@ -1,0 +1,879 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5349E9DE2A953C23005EFE98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349E9DD2A953C23005EFE98 /* AppDelegate.swift */; };
+		5349E9E02A953C23005EFE98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349E9DF2A953C23005EFE98 /* SceneDelegate.swift */; };
+		5349E9E52A953C23005EFE98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5349E9E32A953C23005EFE98 /* Main.storyboard */; };
+		5349E9E72A953C26005EFE98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5349E9E62A953C26005EFE98 /* Assets.xcassets */; };
+		5349E9EA2A953C26005EFE98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5349E9E82A953C26005EFE98 /* LaunchScreen.storyboard */; };
+		5349E9F52A953C26005EFE98 /* Kisiler_ViperPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349E9F42A953C26005EFE98 /* Kisiler_ViperPatternTests.swift */; };
+		5349E9FF2A953C26005EFE98 /* Kisiler_ViperPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349E9FE2A953C26005EFE98 /* Kisiler_ViperPatternUITests.swift */; };
+		5349EA012A953C26005EFE98 /* Kisiler_ViperPatternUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349EA002A953C26005EFE98 /* Kisiler_ViperPatternUITestsLaunchTests.swift */; };
+		5349EA0E2A954022005EFE98 /* KisiKayitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349EA0D2A954022005EFE98 /* KisiKayitVC.swift */; };
+		5349EA102A954034005EFE98 /* KisiDetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349EA0F2A954034005EFE98 /* KisiDetayVC.swift */; };
+		5349EA122A954161005EFE98 /* TableViewHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349EA112A954161005EFE98 /* TableViewHucre.swift */; };
+		5349EA142A9541EE005EFE98 /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349EA132A9541EE005EFE98 /* Kisiler.swift */; };
+		5349EA1F2A95519D005EFE98 /* AnasayfaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349EA1E2A95519D005EFE98 /* AnasayfaVC.swift */; };
+		5349EA232A9553B5005EFE98 /* AnasayfaProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349EA222A9553B5005EFE98 /* AnasayfaProtocols.swift */; };
+		5349EA252A9553C8005EFE98 /* AnasayfaRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349EA242A9553C8005EFE98 /* AnasayfaRouter.swift */; };
+		5349EA272A9553F8005EFE98 /* Anasayfainteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349EA262A9553F8005EFE98 /* Anasayfainteractor.swift */; };
+		5349EA292A955422005EFE98 /* AnasayfaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349EA282A955422005EFE98 /* AnasayfaPresenter.swift */; };
+		5349EA302A9554B5005EFE98 /* KisiKayitProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349EA2F2A9554B5005EFE98 /* KisiKayitProtocols.swift */; };
+		5349EA322A9554C8005EFE98 /* KisiKayitRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349EA312A9554C8005EFE98 /* KisiKayitRouter.swift */; };
+		5349EA362A9554E1005EFE98 /* KisiKayitinteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349EA352A9554E1005EFE98 /* KisiKayitinteractor.swift */; };
+		5349EA382A9554F8005EFE98 /* KisiKayitPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349EA372A9554F8005EFE98 /* KisiKayitPresenter.swift */; };
+		5349EA3F2A9555A4005EFE98 /* KisiDetayProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349EA3E2A9555A4005EFE98 /* KisiDetayProtocols.swift */; };
+		5349EA412A9555BA005EFE98 /* KisiDetayRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349EA402A9555BA005EFE98 /* KisiDetayRouter.swift */; };
+		5349EA432A9555CE005EFE98 /* KisiDetayinteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349EA422A9555CE005EFE98 /* KisiDetayinteractor.swift */; };
+		5349EA452A9555E6005EFE98 /* KisiDetayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5349EA442A9555E6005EFE98 /* KisiDetayPresenter.swift */; };
+		5349EA472A967434005EFE98 /* rehber.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 5349EA462A967434005EFE98 /* rehber.sqlite */; };
+		5349EA562A9674DD005EFE98 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5349EA4B2A9674D7005EFE98 /* FMDatabaseQueue.m */; };
+		5349EA572A9674DD005EFE98 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5349EA4D2A9674D8005EFE98 /* FMResultSet.m */; };
+		5349EA582A9674DD005EFE98 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5349EA4E2A9674D9005EFE98 /* FMDatabase.m */; };
+		5349EA592A9674DD005EFE98 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5349EA4F2A9674D9005EFE98 /* FMDatabasePool.m */; };
+		5349EA5A2A9674DD005EFE98 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5349EA512A9674DA005EFE98 /* FMDatabaseAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5349E9F12A953C26005EFE98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5349E9D22A953C23005EFE98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5349E9D92A953C23005EFE98;
+			remoteInfo = "Kisiler ViperPattern";
+		};
+		5349E9FB2A953C26005EFE98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5349E9D22A953C23005EFE98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5349E9D92A953C23005EFE98;
+			remoteInfo = "Kisiler ViperPattern";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5349E9DA2A953C23005EFE98 /* Kisiler ViperPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kisiler ViperPattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5349E9DD2A953C23005EFE98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5349E9DF2A953C23005EFE98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5349E9E42A953C23005EFE98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5349E9E62A953C26005EFE98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5349E9E92A953C26005EFE98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5349E9EB2A953C26005EFE98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5349E9F02A953C26005EFE98 /* Kisiler ViperPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kisiler ViperPatternTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5349E9F42A953C26005EFE98 /* Kisiler_ViperPatternTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler_ViperPatternTests.swift; sourceTree = "<group>"; };
+		5349E9FA2A953C26005EFE98 /* Kisiler ViperPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kisiler ViperPatternUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5349E9FE2A953C26005EFE98 /* Kisiler_ViperPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler_ViperPatternUITests.swift; sourceTree = "<group>"; };
+		5349EA002A953C26005EFE98 /* Kisiler_ViperPatternUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler_ViperPatternUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5349EA0D2A954022005EFE98 /* KisiKayitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitVC.swift; sourceTree = "<group>"; };
+		5349EA0F2A954034005EFE98 /* KisiDetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayVC.swift; sourceTree = "<group>"; };
+		5349EA112A954161005EFE98 /* TableViewHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHucre.swift; sourceTree = "<group>"; };
+		5349EA132A9541EE005EFE98 /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
+		5349EA1E2A95519D005EFE98 /* AnasayfaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaVC.swift; sourceTree = "<group>"; };
+		5349EA222A9553B5005EFE98 /* AnasayfaProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaProtocols.swift; sourceTree = "<group>"; };
+		5349EA242A9553C8005EFE98 /* AnasayfaRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaRouter.swift; sourceTree = "<group>"; };
+		5349EA262A9553F8005EFE98 /* Anasayfainteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anasayfainteractor.swift; sourceTree = "<group>"; };
+		5349EA282A955422005EFE98 /* AnasayfaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaPresenter.swift; sourceTree = "<group>"; };
+		5349EA2F2A9554B5005EFE98 /* KisiKayitProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitProtocols.swift; sourceTree = "<group>"; };
+		5349EA312A9554C8005EFE98 /* KisiKayitRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitRouter.swift; sourceTree = "<group>"; };
+		5349EA352A9554E1005EFE98 /* KisiKayitinteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitinteractor.swift; sourceTree = "<group>"; };
+		5349EA372A9554F8005EFE98 /* KisiKayitPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitPresenter.swift; sourceTree = "<group>"; };
+		5349EA3E2A9555A4005EFE98 /* KisiDetayProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayProtocols.swift; sourceTree = "<group>"; };
+		5349EA402A9555BA005EFE98 /* KisiDetayRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayRouter.swift; sourceTree = "<group>"; };
+		5349EA422A9555CE005EFE98 /* KisiDetayinteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayinteractor.swift; sourceTree = "<group>"; };
+		5349EA442A9555E6005EFE98 /* KisiDetayPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayPresenter.swift; sourceTree = "<group>"; };
+		5349EA462A967434005EFE98 /* rehber.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = rehber.sqlite; sourceTree = "<group>"; };
+		5349EA492A96749B005EFE98 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		5349EA4A2A9674D6005EFE98 /* Kisiler ViperPattern-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kisiler ViperPattern-Bridging-Header.h"; sourceTree = "<group>"; };
+		5349EA4B2A9674D7005EFE98 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		5349EA4C2A9674D8005EFE98 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		5349EA4D2A9674D8005EFE98 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		5349EA4E2A9674D9005EFE98 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		5349EA4F2A9674D9005EFE98 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		5349EA502A9674DA005EFE98 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		5349EA512A9674DA005EFE98 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		5349EA522A9674DB005EFE98 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		5349EA532A9674DB005EFE98 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		5349EA542A9674DC005EFE98 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		5349EA552A9674DC005EFE98 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5349E9D72A953C23005EFE98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5349E9ED2A953C26005EFE98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5349E9F72A953C26005EFE98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5349E9D12A953C23005EFE98 = {
+			isa = PBXGroup;
+			children = (
+				5349E9DC2A953C23005EFE98 /* Kisiler ViperPattern */,
+				5349E9F32A953C26005EFE98 /* Kisiler ViperPatternTests */,
+				5349E9FD2A953C26005EFE98 /* Kisiler ViperPatternUITests */,
+				5349E9DB2A953C23005EFE98 /* Products */,
+				5349EA482A96749A005EFE98 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5349E9DB2A953C23005EFE98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5349E9DA2A953C23005EFE98 /* Kisiler ViperPattern.app */,
+				5349E9F02A953C26005EFE98 /* Kisiler ViperPatternTests.xctest */,
+				5349E9FA2A953C26005EFE98 /* Kisiler ViperPatternUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5349E9DC2A953C23005EFE98 /* Kisiler ViperPattern */ = {
+			isa = PBXGroup;
+			children = (
+				5349E9DD2A953C23005EFE98 /* AppDelegate.swift */,
+				5349E9DF2A953C23005EFE98 /* SceneDelegate.swift */,
+				5349EA152A955068005EFE98 /* anasayfa-module */,
+				5349EA172A955091005EFE98 /* kisikayit-module */,
+				5349EA182A9550C5005EFE98 /* kisidetay-module */,
+				5349E9E32A953C23005EFE98 /* Main.storyboard */,
+				5349E9E62A953C26005EFE98 /* Assets.xcassets */,
+				5349E9E82A953C26005EFE98 /* LaunchScreen.storyboard */,
+				5349E9EB2A953C26005EFE98 /* Info.plist */,
+				5349EA462A967434005EFE98 /* rehber.sqlite */,
+				5349EA552A9674DC005EFE98 /* FMDatabase.h */,
+				5349EA4E2A9674D9005EFE98 /* FMDatabase.m */,
+				5349EA522A9674DB005EFE98 /* FMDatabaseAdditions.h */,
+				5349EA512A9674DA005EFE98 /* FMDatabaseAdditions.m */,
+				5349EA502A9674DA005EFE98 /* FMDatabasePool.h */,
+				5349EA4F2A9674D9005EFE98 /* FMDatabasePool.m */,
+				5349EA542A9674DC005EFE98 /* FMDatabaseQueue.h */,
+				5349EA4B2A9674D7005EFE98 /* FMDatabaseQueue.m */,
+				5349EA4C2A9674D8005EFE98 /* FMDB.h */,
+				5349EA532A9674DB005EFE98 /* FMResultSet.h */,
+				5349EA4D2A9674D8005EFE98 /* FMResultSet.m */,
+				5349EA212A955333005EFE98 /* entity */,
+				5349EA4A2A9674D6005EFE98 /* Kisiler ViperPattern-Bridging-Header.h */,
+			);
+			path = "Kisiler ViperPattern";
+			sourceTree = "<group>";
+		};
+		5349E9F32A953C26005EFE98 /* Kisiler ViperPatternTests */ = {
+			isa = PBXGroup;
+			children = (
+				5349E9F42A953C26005EFE98 /* Kisiler_ViperPatternTests.swift */,
+			);
+			path = "Kisiler ViperPatternTests";
+			sourceTree = "<group>";
+		};
+		5349E9FD2A953C26005EFE98 /* Kisiler ViperPatternUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5349E9FE2A953C26005EFE98 /* Kisiler_ViperPatternUITests.swift */,
+				5349EA002A953C26005EFE98 /* Kisiler_ViperPatternUITestsLaunchTests.swift */,
+			);
+			path = "Kisiler ViperPatternUITests";
+			sourceTree = "<group>";
+		};
+		5349EA152A955068005EFE98 /* anasayfa-module */ = {
+			isa = PBXGroup;
+			children = (
+				5349EA202A95530B005EFE98 /* tableview */,
+				5349EA1D2A955112005EFE98 /* protocols */,
+				5349EA1C2A955109005EFE98 /* router */,
+				5349EA1B2A955100005EFE98 /* interactor */,
+				5349EA1A2A9550FA005EFE98 /* presenter */,
+				5349EA192A9550F4005EFE98 /* view */,
+			);
+			path = "anasayfa-module";
+			sourceTree = "<group>";
+		};
+		5349EA172A955091005EFE98 /* kisikayit-module */ = {
+			isa = PBXGroup;
+			children = (
+				5349EA2E2A955481005EFE98 /* protocols */,
+				5349EA2D2A955479005EFE98 /* router */,
+				5349EA2C2A955470005EFE98 /* interactor */,
+				5349EA2B2A955467005EFE98 /* presenter */,
+				5349EA2A2A95545B005EFE98 /* view */,
+			);
+			path = "kisikayit-module";
+			sourceTree = "<group>";
+		};
+		5349EA182A9550C5005EFE98 /* kisidetay-module */ = {
+			isa = PBXGroup;
+			children = (
+				5349EA3D2A955588005EFE98 /* protocols */,
+				5349EA3C2A955583005EFE98 /* router */,
+				5349EA3B2A95557E005EFE98 /* interactor */,
+				5349EA3A2A955577005EFE98 /* presenter */,
+				5349EA392A955569005EFE98 /* view */,
+			);
+			path = "kisidetay-module";
+			sourceTree = "<group>";
+		};
+		5349EA192A9550F4005EFE98 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5349EA1E2A95519D005EFE98 /* AnasayfaVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5349EA1A2A9550FA005EFE98 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5349EA282A955422005EFE98 /* AnasayfaPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		5349EA1B2A955100005EFE98 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				5349EA262A9553F8005EFE98 /* Anasayfainteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		5349EA1C2A955109005EFE98 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				5349EA242A9553C8005EFE98 /* AnasayfaRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		5349EA1D2A955112005EFE98 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				5349EA222A9553B5005EFE98 /* AnasayfaProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		5349EA202A95530B005EFE98 /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				5349EA112A954161005EFE98 /* TableViewHucre.swift */,
+			);
+			path = tableview;
+			sourceTree = "<group>";
+		};
+		5349EA212A955333005EFE98 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				5349EA132A9541EE005EFE98 /* Kisiler.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		5349EA2A2A95545B005EFE98 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5349EA0D2A954022005EFE98 /* KisiKayitVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5349EA2B2A955467005EFE98 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5349EA372A9554F8005EFE98 /* KisiKayitPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		5349EA2C2A955470005EFE98 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				5349EA352A9554E1005EFE98 /* KisiKayitinteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		5349EA2D2A955479005EFE98 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				5349EA312A9554C8005EFE98 /* KisiKayitRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		5349EA2E2A955481005EFE98 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				5349EA2F2A9554B5005EFE98 /* KisiKayitProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		5349EA392A955569005EFE98 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5349EA0F2A954034005EFE98 /* KisiDetayVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5349EA3A2A955577005EFE98 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5349EA442A9555E6005EFE98 /* KisiDetayPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		5349EA3B2A95557E005EFE98 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				5349EA422A9555CE005EFE98 /* KisiDetayinteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		5349EA3C2A955583005EFE98 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				5349EA402A9555BA005EFE98 /* KisiDetayRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		5349EA3D2A955588005EFE98 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				5349EA3E2A9555A4005EFE98 /* KisiDetayProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		5349EA482A96749A005EFE98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5349EA492A96749B005EFE98 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5349E9D92A953C23005EFE98 /* Kisiler ViperPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5349EA042A953C26005EFE98 /* Build configuration list for PBXNativeTarget "Kisiler ViperPattern" */;
+			buildPhases = (
+				5349E9D62A953C23005EFE98 /* Sources */,
+				5349E9D72A953C23005EFE98 /* Frameworks */,
+				5349E9D82A953C23005EFE98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kisiler ViperPattern";
+			productName = "Kisiler ViperPattern";
+			productReference = 5349E9DA2A953C23005EFE98 /* Kisiler ViperPattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5349E9EF2A953C26005EFE98 /* Kisiler ViperPatternTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5349EA072A953C26005EFE98 /* Build configuration list for PBXNativeTarget "Kisiler ViperPatternTests" */;
+			buildPhases = (
+				5349E9EC2A953C26005EFE98 /* Sources */,
+				5349E9ED2A953C26005EFE98 /* Frameworks */,
+				5349E9EE2A953C26005EFE98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5349E9F22A953C26005EFE98 /* PBXTargetDependency */,
+			);
+			name = "Kisiler ViperPatternTests";
+			productName = "Kisiler ViperPatternTests";
+			productReference = 5349E9F02A953C26005EFE98 /* Kisiler ViperPatternTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5349E9F92A953C26005EFE98 /* Kisiler ViperPatternUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5349EA0A2A953C26005EFE98 /* Build configuration list for PBXNativeTarget "Kisiler ViperPatternUITests" */;
+			buildPhases = (
+				5349E9F62A953C26005EFE98 /* Sources */,
+				5349E9F72A953C26005EFE98 /* Frameworks */,
+				5349E9F82A953C26005EFE98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5349E9FC2A953C26005EFE98 /* PBXTargetDependency */,
+			);
+			name = "Kisiler ViperPatternUITests";
+			productName = "Kisiler ViperPatternUITests";
+			productReference = 5349E9FA2A953C26005EFE98 /* Kisiler ViperPatternUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5349E9D22A953C23005EFE98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5349E9D92A953C23005EFE98 = {
+						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
+					};
+					5349E9EF2A953C26005EFE98 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 5349E9D92A953C23005EFE98;
+					};
+					5349E9F92A953C26005EFE98 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 5349E9D92A953C23005EFE98;
+					};
+				};
+			};
+			buildConfigurationList = 5349E9D52A953C23005EFE98 /* Build configuration list for PBXProject "Kisiler ViperPattern" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5349E9D12A953C23005EFE98;
+			productRefGroup = 5349E9DB2A953C23005EFE98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5349E9D92A953C23005EFE98 /* Kisiler ViperPattern */,
+				5349E9EF2A953C26005EFE98 /* Kisiler ViperPatternTests */,
+				5349E9F92A953C26005EFE98 /* Kisiler ViperPatternUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5349E9D82A953C23005EFE98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5349E9EA2A953C26005EFE98 /* LaunchScreen.storyboard in Resources */,
+				5349EA472A967434005EFE98 /* rehber.sqlite in Resources */,
+				5349E9E72A953C26005EFE98 /* Assets.xcassets in Resources */,
+				5349E9E52A953C23005EFE98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5349E9EE2A953C26005EFE98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5349E9F82A953C26005EFE98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5349E9D62A953C23005EFE98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5349EA432A9555CE005EFE98 /* KisiDetayinteractor.swift in Sources */,
+				5349EA322A9554C8005EFE98 /* KisiKayitRouter.swift in Sources */,
+				5349EA272A9553F8005EFE98 /* Anasayfainteractor.swift in Sources */,
+				5349EA592A9674DD005EFE98 /* FMDatabasePool.m in Sources */,
+				5349EA252A9553C8005EFE98 /* AnasayfaRouter.swift in Sources */,
+				5349EA362A9554E1005EFE98 /* KisiKayitinteractor.swift in Sources */,
+				5349EA562A9674DD005EFE98 /* FMDatabaseQueue.m in Sources */,
+				5349EA412A9555BA005EFE98 /* KisiDetayRouter.swift in Sources */,
+				5349EA382A9554F8005EFE98 /* KisiKayitPresenter.swift in Sources */,
+				5349EA102A954034005EFE98 /* KisiDetayVC.swift in Sources */,
+				5349EA582A9674DD005EFE98 /* FMDatabase.m in Sources */,
+				5349EA572A9674DD005EFE98 /* FMResultSet.m in Sources */,
+				5349EA122A954161005EFE98 /* TableViewHucre.swift in Sources */,
+				5349EA142A9541EE005EFE98 /* Kisiler.swift in Sources */,
+				5349EA232A9553B5005EFE98 /* AnasayfaProtocols.swift in Sources */,
+				5349E9DE2A953C23005EFE98 /* AppDelegate.swift in Sources */,
+				5349E9E02A953C23005EFE98 /* SceneDelegate.swift in Sources */,
+				5349EA292A955422005EFE98 /* AnasayfaPresenter.swift in Sources */,
+				5349EA1F2A95519D005EFE98 /* AnasayfaVC.swift in Sources */,
+				5349EA302A9554B5005EFE98 /* KisiKayitProtocols.swift in Sources */,
+				5349EA452A9555E6005EFE98 /* KisiDetayPresenter.swift in Sources */,
+				5349EA0E2A954022005EFE98 /* KisiKayitVC.swift in Sources */,
+				5349EA3F2A9555A4005EFE98 /* KisiDetayProtocols.swift in Sources */,
+				5349EA5A2A9674DD005EFE98 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5349E9EC2A953C26005EFE98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5349E9F52A953C26005EFE98 /* Kisiler_ViperPatternTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5349E9F62A953C26005EFE98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5349EA012A953C26005EFE98 /* Kisiler_ViperPatternUITestsLaunchTests.swift in Sources */,
+				5349E9FF2A953C26005EFE98 /* Kisiler_ViperPatternUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5349E9F22A953C26005EFE98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5349E9D92A953C23005EFE98 /* Kisiler ViperPattern */;
+			targetProxy = 5349E9F12A953C26005EFE98 /* PBXContainerItemProxy */;
+		};
+		5349E9FC2A953C26005EFE98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5349E9D92A953C23005EFE98 /* Kisiler ViperPattern */;
+			targetProxy = 5349E9FB2A953C26005EFE98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5349E9E32A953C23005EFE98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5349E9E42A953C23005EFE98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5349E9E82A953C26005EFE98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5349E9E92A953C26005EFE98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5349EA022A953C26005EFE98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5349EA032A953C26005EFE98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5349EA052A953C26005EFE98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kisiler ViperPattern/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aydemir.Kisiler-ViperPattern";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Kisiler ViperPattern/Kisiler ViperPattern-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5349EA062A953C26005EFE98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kisiler ViperPattern/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aydemir.Kisiler-ViperPattern";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Kisiler ViperPattern/Kisiler ViperPattern-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5349EA082A953C26005EFE98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aydemir.Kisiler-ViperPatternTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kisiler ViperPattern.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kisiler ViperPattern";
+			};
+			name = Debug;
+		};
+		5349EA092A953C26005EFE98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aydemir.Kisiler-ViperPatternTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kisiler ViperPattern.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kisiler ViperPattern";
+			};
+			name = Release;
+		};
+		5349EA0B2A953C26005EFE98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aydemir.Kisiler-ViperPatternUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kisiler ViperPattern";
+			};
+			name = Debug;
+		};
+		5349EA0C2A953C26005EFE98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aydemir.Kisiler-ViperPatternUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kisiler ViperPattern";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5349E9D52A953C23005EFE98 /* Build configuration list for PBXProject "Kisiler ViperPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5349EA022A953C26005EFE98 /* Debug */,
+				5349EA032A953C26005EFE98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5349EA042A953C26005EFE98 /* Build configuration list for PBXNativeTarget "Kisiler ViperPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5349EA052A953C26005EFE98 /* Debug */,
+				5349EA062A953C26005EFE98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5349EA072A953C26005EFE98 /* Build configuration list for PBXNativeTarget "Kisiler ViperPatternTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5349EA082A953C26005EFE98 /* Debug */,
+				5349EA092A953C26005EFE98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5349EA0A2A953C26005EFE98 /* Build configuration list for PBXNativeTarget "Kisiler ViperPatternUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5349EA0B2A953C26005EFE98 /* Debug */,
+				5349EA0C2A953C26005EFE98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5349E9D22A953C23005EFE98 /* Project object */;
+}
